@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login simples e inseguro</title>
+</head>
+<body>
+  <input type="text" id="login" placeholder="Nome de Usuário">
+  <input type="password" id="senha" placeholder="Senha">
+  <button onclick="verificaLogin()">Entrar</button>
+  <script>
+    const usuario = {
+      login: 'eduardo', // nome de usuário 
+      senha: '123' // senha
+    }
+
+    const verificaLogin = () => {
+      const login = document.getElementById('login').value
+      const senha = document.getElementById('senha').value
+      
+      if (usuario.login === login && usuario.senha === senha) {
+        console.log('Logado')
+        window.location.href = "http://pt.stackoverflow.com"; // Endereço que você quer
+      } else {
+        console.log('Nome de usuário ou senha incorretos!')
+      }
+    }
+  </script>
+</body>
+</html>

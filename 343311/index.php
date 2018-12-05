@@ -5,19 +5,19 @@ $tracks = Array
       (
         [0] => Array
           (
-            [title] => Amiga Da Minha Mulher
+            [title] => "Amiga Da Minha Mulher"
             [artist] => Array
               (
-                [name] => Seu Jorge
+                [name] => "Seu Jorge"
               )
           )
 
         [1] => Array
           (
-            [title] => Tá Vendo Aquela Lua
+            [title] => "Tá Vendo Aquela Lua"
             [artist] => Array
               (
-                [name] => Exaltasamba
+                [name] => "Exaltasamba"
               )
           )
       )
