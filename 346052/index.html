@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hover Imagem</title>
+  <style>
+    .imageSumida {
+      display: none;
+    }
+    .hoverImage:hover, .hoverImage:hover ~ .imageSumida {
+      display: block;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <a href="http://google.com" target="_blank" class="hoverImage">Uma imagem deve aparecer</a>
+  <img src="https://static.imagensparawhats.com.br/content/assetz/uploads/2018/08/memes-imagem-engracada-so-me-falta-o-dinheiro---.png" alt="Serei Rico" class="imageSumida"> 
+</body>
+</html>

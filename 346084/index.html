@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <ul id="nomes">
+
+  </ul>
+  <script>
+    let nomes = document.getElementById('nomes')
+    const listaNomes = [
+      { nome: 'Eduardo' },
+      { nome: 'José' },
+      { nome: 'Ribeiro' },
+      { nome: 'Soares'}
+    ]
+
+    listaNomes.forEach(obj => {
+      nomes.innerHTML += `<li>${ obj.nome }</li>`
+    })
+  </script>
+</body>
+</html>
