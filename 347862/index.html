@@ -17,12 +17,12 @@
     }
 
     const verificaLogin = () => {
-      const login = document.getElementById('login').value
-      const senha = document.getElementById('senha').value
+      const login = document.getElementById('login').value // O que o usuário digitou em Nome de Usuário
+      const senha = document.getElementById('senha').value // O que o usuário digitou em Senha
       
       if (usuario.login === login && usuario.senha === senha) {
         console.log('Logado')
-        window.location.href = "http://pt.stackoverflow.com"; // Endereço que você quer
+        window.location.href = "https://goo.gl/DXBzUK"; // Endereço que você quer
       } else {
         console.log('Nome de usuário ou senha incorretos!')
       }
